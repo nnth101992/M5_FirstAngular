@@ -1,0 +1,20 @@
+<h2>Color Piker</h2>
+
+<div>
+  <label>Select color: </label>
+  <input [value]="background" type="color" (change)="onChange($event.target.value)">
+</div>
+
+<p>Output:</p>
+<div style="height: 200px; width: 1000px" class="color-preview" [style.background]=background></div>
+
+<!--<h3 class="pt-5">Choose-color</h3>-->
+<!--<select class="form-control" [(ngModel)]="color">-->
+<!--  <option value="black" style="background-color: black"></option>-->
+<!--  <option value="white" style="background-color: white"></option>-->
+<!--  <option value="blueviolet" style="background-color: blueviolet"></option>-->
+<!--  <option value="red" style="background-color: red"></option>-->
+<!--</select>-->
+<!--<div style="height: 200px; width: 700px" [style.background-color]= color>-->
+
+<!--</div>-->
